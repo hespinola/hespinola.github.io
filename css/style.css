@@ -58,4 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   color: #2C3E50; }
 
+#section-about {
+  background: url("../img/section1.png");
+  background-size: cover; }
+
 /*# sourceMappingURL=style.css.map */

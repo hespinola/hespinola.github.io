@@ -3,7 +3,7 @@ $(document).ready(function() {
         //Navigation
         menu: '#main-menu',
         lockAnchors: false,
-        anchors:['about', 'services', 'portfolio', 'contact'],
+        anchors:['about', 'portfolio', 'contact'],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],

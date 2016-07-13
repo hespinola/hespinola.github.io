@@ -1,4 +1,10 @@
 #section-about {
     background: url('../img/section1.png');
     background-size: cover;
+
+    text-align: center;
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
 }

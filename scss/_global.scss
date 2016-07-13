@@ -5,6 +5,7 @@
 body {
     padding-top: 50px;
     font-family: $main-font;
+    font-size: 1.2em;
     color: $white;
 }
 
@@ -36,4 +37,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+}
+
+.section-heading {
+    margin-bottom: 8%;
 }

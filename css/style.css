@@ -4,6 +4,7 @@
 body {
   padding-top: 50px;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
   color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +29,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   /* inline-block space fix */
   margin-right: -4px; }
+
+.section-heading {
+  margin-bottom: 8%; }
 
 /*  ======================================================
     HEADER STYLES
@@ -68,11 +72,26 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   color: #2C3E50; }
 
+/*  ======================================================
+    SECTION ABOUT STYLES
+    ====================================================== */
 #section-about {
   background: url("../img/section1.png");
-  background-size: cover;
-  text-align: center; }
-  #section-about .section-heading {
-    margin-bottom: 40px; }
+  background-size: cover; }
+
+/*  ======================================================
+    SECTION PORTFOLIO STYLES
+    ====================================================== */
+#section-portfolio {
+  color: #22313F; }
+  #section-portfolio #web-portfolio {
+    margin-bottom: 5%; }
+  #section-portfolio .portfolio-item {
+    width: 120px;
+    height: 120px; }
+
+/*  ======================================================
+    SECTION CONTACT STYLES
+    ====================================================== */
 
 /*# sourceMappingURL=style.css.map */

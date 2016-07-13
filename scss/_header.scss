@@ -21,7 +21,10 @@
         // Navigation Items
         a {
             color: $white;
+            background-color: $dark-color;
             font-family: $heading-fonts;
+
+            @include transition(all, .3s, ease, 0s);
 
             &:hover {
                 background-color: $white;

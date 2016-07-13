@@ -44,7 +44,12 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #2C3E50; }
   #site-header .navbar a {
     color: #ffffff;
-    font-family: "Lato", sans-serif; }
+    background-color: #2C3E50;
+    font-family: "Lato", sans-serif;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
     #site-header .navbar a:hover {
       background-color: #ffffff;
       color: #2C3E50;

@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#site-main').fullpage({
         //Navigation
-        menu: '#menu',
+        menu: '#main-menu',
         lockAnchors: false,
         anchors:['about', 'services', 'portfolio', 'contact'],
         navigation: false,

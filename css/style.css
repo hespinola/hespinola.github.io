@@ -52,5 +52,10 @@ h1, h2, h3, h4, h5, h6 {
       -moz-transition: all 0.5s ease 0s;
       -o-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s; }
+    #site-header .navbar a:focus {
+      outline: 0; }
+#site-header .active a {
+  background-color: #ffffff;
+  color: #2C3E50; }
 
 /*# sourceMappingURL=style.css.map */

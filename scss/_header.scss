@@ -29,7 +29,18 @@
 
                 @include transition(all, .5s, ease, 0s);
             }
-        }
 
+            &:focus {
+                outline: 0;
+            }
+
+        }
+    }
+
+    .active {
+        a {
+            background-color: $white;
+            color: $dark-color;
+        }
     }
 }

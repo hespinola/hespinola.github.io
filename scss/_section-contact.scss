@@ -2,5 +2,33 @@
     SECTION CONTACT STYLES
     ====================================================== */
 #section-contact {
+    // Form
+        #contact-form {
+            input, textarea {
+                color: $black;
+                padding: 3px 5px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
 
+            textarea {
+                width: 100%;
+                height: 100px;
+                resize: none;
+
+                @media screen and (min-height: 650px) {
+                    height: 150px;
+                }
+
+                @media screen and (min-height: 720px) {
+                    height: 200px;
+                }
+            }
+
+            button {
+                background-color: $secondary-color;
+                color: $white;
+
+            }
+        }
 }

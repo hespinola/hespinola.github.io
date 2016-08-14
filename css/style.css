@@ -10,6 +10,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif; }
 
+a, a:hover {
+  color: #ffffff; }
+
 .bottom-spacing {
   padding-bottom: 30px; }
 
@@ -111,5 +114,16 @@ h1, h2, h3, h4, h5, h6 {
 #section-contact #contact-form button {
   background-color: #446CB3;
   color: #ffffff; }
+#section-contact .contact-text {
+  text-align: center; }
+  #section-contact .contact-text .contact-text-heading {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin: 50px auto 20px auto; }
+  #section-contact .contact-text:hover {
+    text-decoration: none; }
+#section-contact .contact-link .contact-img {
+  display: block;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */

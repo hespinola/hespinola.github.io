@@ -31,4 +31,26 @@
 
             }
         }
+
+        // Image Column
+        .contact-text {
+            text-align: center;
+
+            .contact-text-heading {
+                text-align: center;
+                font-family: $main-font;
+                margin: 50px auto 20px auto;
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .contact-link {
+            .contact-img {
+                display: block;
+                margin: auto;
+            }
+        }
 }

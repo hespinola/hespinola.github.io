@@ -16,10 +16,16 @@ $('#contact-form').submit(function(event) {
             message: contactMessage
         },
         success: function(data) {
-
+            $('#form-error').css('display', 'none');
+            $('#form-sent').animate({
+                display: 'inline'
+            }, 800);
         },
         error: function() {
-            
+            $('#form-sent').css('display', 'none');
+            $('#form-error').animate({
+                display: 'inline'
+            }, 800);
         }
     });
 });

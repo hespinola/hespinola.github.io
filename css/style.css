@@ -114,6 +114,11 @@ a, a:hover {
 #section-contact #contact-form button {
   background-color: #446CB3;
   color: #ffffff; }
+#section-contact #contact-form .form-alert {
+  display: inline;
+  opacity: 0;
+  margin-left: 20px;
+  padding: 8px 12px; }
 #section-contact .contact-text {
   text-align: center; }
   #section-contact .contact-text .contact-text-heading {

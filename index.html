@@ -90,7 +90,7 @@
                 <h2 class="section-heading text-center">Contact Me!</h2>
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <form action="" method="GET" id="contact-form" class="top-spacing">
+                        <form action="https://formspree.io/h.espinola@icloud.com" method="POST" id="contact-form" class="top-spacing">
                             <div class="from-group">
                                 <label for="contact-name" class="contact-label">Name</label><br />
                                 <input type="text" name="contact-name" id="contact-name" placeholder="Name" required="required" />
@@ -103,6 +103,8 @@
                                 <label for="contact-message" class="contact-label">Message</label><br />
                                 <textarea name="contact-message" id="contact-message" placeholder="Message" required="required"></textarea>
                             </div>
+                            <input type="hidden" name="_next" value="https://hespinola.github.io/" />
+                            <input type="hidden" name="_format" value="plain" />
                             <input type="text" name="_gotcha" style="display:none" />
                             <button type="submit" id="submit-button" class="btn">Send</button>
                             <div id="form-sent" class="alert alert-success form-alert">
@@ -136,7 +138,7 @@
 
     <!-- Custom Scripts -->
     <script src="js/main.js"></script>
-    <script src="js/mail-controller.js"></script>
+    <!--<script src="js/mail-controller.js"></script> -->
 
 
 </body>

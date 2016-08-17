@@ -16,7 +16,10 @@ $('#contact-form').submit(function(event) {
             message: contactMessage
         },
         success: function(data) {
-            console.log(data);
+
+        },
+        error: function() {
+            
         }
     });
 });

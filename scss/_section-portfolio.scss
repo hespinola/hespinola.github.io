@@ -12,4 +12,31 @@
         width: 120px;
         height: 120px;
     }
+
+    .portfolio-row {
+
+        // Anchor Tag
+        .portfolio-anchor {
+            color: $darker-color;
+
+            .portfolio-title {
+                text-align: center;
+            }
+
+            .portfolio-image {
+                width: 40%;
+                display: block;
+                margin: auto;
+                margin-bottom: 30px;
+
+                @media screen and (min-height: 899px) {
+                    width: 60%;
+                }
+
+                @media screen and (min-height: 1079px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

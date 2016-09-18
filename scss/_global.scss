@@ -44,5 +44,9 @@ a, a:hover {
 }
 
 .section-heading {
-    margin-bottom: 8%;
+    margin-bottom: 20%;
+
+    @media (orientation: landscape) {
+        margin-bottom: 6%;
+    }
 }

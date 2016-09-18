@@ -34,7 +34,10 @@ a, a:hover {
   margin-right: -4px; }
 
 .section-heading {
-  margin-bottom: 8%; }
+  margin-bottom: 20%; }
+  @media (orientation: landscape) {
+    .section-heading {
+      margin-bottom: 6%; } }
 
 /*  ======================================================
     HEADER STYLES
@@ -92,6 +95,21 @@ a, a:hover {
   #section-portfolio .portfolio-item {
     width: 120px;
     height: 120px; }
+  #section-portfolio .portfolio-row .portfolio-anchor {
+    color: #22313F; }
+    #section-portfolio .portfolio-row .portfolio-anchor .portfolio-title {
+      text-align: center; }
+    #section-portfolio .portfolio-row .portfolio-anchor .portfolio-image {
+      width: 40%;
+      display: block;
+      margin: auto;
+      margin-bottom: 30px; }
+      @media screen and (min-height: 899px) {
+        #section-portfolio .portfolio-row .portfolio-anchor .portfolio-image {
+          width: 60%; } }
+      @media screen and (min-height: 1079px) {
+        #section-portfolio .portfolio-row .portfolio-anchor .portfolio-image {
+          width: 100%; } }
 
 /*  ======================================================
     SECTION CONTACT STYLES
@@ -111,12 +129,14 @@ a, a:hover {
   @media screen and (min-height: 720px) {
     #section-contact #contact-form textarea {
       height: 200px; } }
+  @media screen and (max-width: 768px) {
+    #section-contact #contact-form textarea {
+      height: 50px; } }
 #section-contact #contact-form button {
   background-color: #446CB3;
   color: #ffffff; }
 #section-contact #contact-form .form-alert {
-  display: inline;
-  opacity: 0;
+  display: none;
   margin-left: 20px;
   padding: 8px 12px; }
 #section-contact .contact-text {
